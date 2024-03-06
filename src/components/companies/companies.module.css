@@ -1,0 +1,55 @@
+/* Companies related CSS Styles  */
+
+.companies_section {
+  height: 28px;
+  width: 1065px;
+  margin: 0 auto;
+  margin-top: 177px;
+}
+
+.companies_title {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 16px;
+  color: #667085;
+  text-align: center;
+}
+
+.body_box {
+  background: #f6f6f6;
+  width: 915px;
+  height: 86px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 14px;
+  padding: 0 24px;
+}
+
+.logo_img {
+  height: 48px;
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 600px) { 
+
+  .companies_section {
+    height: 116px;
+    width: 380px;
+  }
+
+  .body_box {
+    width: 380px;
+    height: 86px;
+    margin-top: 8px;
+    padding: 0 4px;
+  }
+
+  .logo_img {
+    height: 20px;
+    width: 100%;
+  }
+
+}

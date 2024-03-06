@@ -1,0 +1,74 @@
+/* ======== Branding section style ========  */
+
+.branding_section {
+  max-height: 450px;
+  width: 1065px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-top: 136px;
+}
+
+.brand_heading {
+  max-width: 435.69px;
+  min-height: 102.35px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #272d38;
+  padding-top: 40px;
+}
+
+.brand_description {
+  max-width: 392.22px;
+  min-height: 83.16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27.5px;
+  padding-top: 10px;
+}
+.arrow {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .branding_section {
+    height: 665px;
+    width: 378px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 195px;
+    /* padding: 0 25px; */
+    
+  }
+
+  .brand_heading {
+    max-width: 378px;
+    min-height: 120px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    margin-bottom: 32px;
+
+    color: #272d38;
+    padding-top: 40px;
+    text-align: center;
+  }
+
+  .brand_description {
+    max-width: 525px;
+    min-height: 56px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27.5px;
+    padding-top: 24px;
+  }
+
+  .brandImg {
+    width: 358px;
+    height: 358px;
+    margin-top: 40px;
+  }
+}

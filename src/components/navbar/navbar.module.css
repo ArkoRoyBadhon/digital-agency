@@ -18,12 +18,8 @@
 }
 
 .nav_link_group {
-  /* font-weight: 400;
-  font-size: 18px;
-  line-height: 27.5px;
-  color: #272d38; */
   display: flex;
-  column-gap: 40px;
+  column-gap: 44px;
 }
 
 .nav_link {
@@ -32,4 +28,24 @@
   line-height: 27.5px;
   color: #272d38;
   text-decoration: none;
+}
+
+.burgerMenu {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav_section {
+    height: 24px;
+    width: 380px;
+    padding-left: 10px;
+  }
+
+  .burgerMenu {
+    display: inline-block;
+  }
+
+  .nav_link_group {
+    display: none;
+  }
 }
