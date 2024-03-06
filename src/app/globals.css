@@ -13,8 +13,11 @@
   background: #fdfcfc;
 
   display: flex;
-  column-gap: 20px;
-  justify-content: center;
+  flex-direction: column;
+
+  /* column-gap: 20px; */
+  /* justify-content: center; */
+  align-items: center;
   margin: 0 auto;
 }
 
@@ -22,10 +25,12 @@
 
 .hero_section {
   max-height: 450px;
-  max-width: 1065px;
-  /* background-color: aqua; */
+  /* max-width: 1065px; */
+  width: 1065px;
   display: flex;
+  justify-content: space-between;
   /* column-gap: 30px; */
+  margin-top: 97px;
 }
 
 .main_heading {
