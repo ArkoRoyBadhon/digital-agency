@@ -1,10 +1,10 @@
 import Image from "next/image";
 import styles from "./testimonial.module.css";
-import { testimonialMocks } from "@/mocks/page";
+import { testimonialMocks } from "@/utils/mocks/page";
 
 const TestimonialSection = () => {
   return (
-    <div className={styles.new}>
+    <div className={styles.testimonialSection}>
       <span className={`${styles.subTitle} pos_center_div`}>TESTIMONIALS</span>
       <div className="pos_center_div">
         <h4 className={`${styles.mainTitle}`}>Read What Other have to Say</h4>
@@ -16,7 +16,7 @@ const TestimonialSection = () => {
               <div key={item?.name} className={styles.testimonialCard}>
                 <div className="pos_center_div">
                   <Image
-                  className={styles.img}
+                    className={styles.img}
                     src={item?.img}
                     alt={item?.name}
                     width={129}
@@ -24,7 +24,9 @@ const TestimonialSection = () => {
                   />
                 </div>
                 <p className={styles.name_testimonial}>{item?.name}</p>
-                <p className="">{item?.description}</p>
+                <p className={styles.testimonialDescription}>
+                  {item?.description}
+                </p>
               </div>
             );
           })}

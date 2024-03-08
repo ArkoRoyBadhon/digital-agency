@@ -1,3 +1,7 @@
+import { DropIcon } from "../icons/dropboxIcon"
+import { SlackIcon } from "../icons/slackIcon"
+import { SpotifyIcon } from "../icons/spotifyIcon"
+import { ZoomIcon } from "../icons/zoomIcon"
 
 
 
@@ -25,19 +29,38 @@ export const navLink = [
  export const companyLogo = [
     {
         name: "spotify",
-        logo: "/images/spotify.png"
+        logo: <SpotifyIcon />
     },
     {
         name: "slack",
-        logo: "/images/slack.png"
+        logo: <SlackIcon />
     },
     {
         name: "dropbox",
-        logo: "/images/dropbox.png"
+        logo: <DropIcon />
     },
     {
         name: "zoom",
-        logo: "/images/zoom.png"
+        logo: <ZoomIcon />
+    },
+ ]
+
+ export const companyLogoMobile = [
+    {
+        name: "spotify",
+        logo: <SpotifyIcon width={70} height={24} />
+    },
+    {
+        name: "slack",
+        logo: <SlackIcon width={60} height={24} />
+    },
+    {
+        name: "dropbox",
+        logo: <DropIcon width={80} height={24} />
+    },
+    {
+        name: "zoom",
+        logo: <ZoomIcon width={49} height={24} />
     },
  ]
 

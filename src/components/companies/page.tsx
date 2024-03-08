@@ -1,4 +1,4 @@
-import { companyLogo } from "@/mocks/page";
+import { companyLogo, companyLogoMobile } from "@/utils/mocks/page";
 import styles from "./companies.module.css";
 import Image from "next/image";
 
@@ -11,20 +11,22 @@ const Companies = () => {
         </span>
       </div>
       <div className="pos_center_div">
-        <div className={`${styles.body_box}`}>
+        <div className={`${styles.body_box} ${styles.hidden_pc} `}>
           {companyLogo &&
-            companyLogo.map((item) => {
+            companyLogo.map((item,i) => {
               return (
-                <div key={item?.name} className="">
-                  <Image
-                  className={styles.logo_img}
-                    src={item?.logo}
-                    alt={item?.name}
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    // style={{ width: "100%", height: "48px" }}
-                  />
+                <div key={i} className="">
+                  {item?.logo}
+                </div>
+              );
+            })}
+        </div>
+        <div className={`${styles.body_box} ${styles.hidden_mobile}`}>
+          {companyLogoMobile &&
+            companyLogoMobile.map((item,i) => {
+              return (
+                <div key={i} className="">
+                  {item?.logo}
                 </div>
               );
             })}

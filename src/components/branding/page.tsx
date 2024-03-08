@@ -1,5 +1,7 @@
 import Image from "next/image";
 import styles from "./branding.module.css";
+import { ArrowIcon } from "@/utils/icons/arrowIcon";
+
 
 const BrandingSection = () => {
   return (
@@ -10,8 +12,8 @@ const BrandingSection = () => {
           Commonly used in the graphic, print & publishing industris for
           previewing visual layout and mockups
         </p>
-        <div className="styles.arrow">
-          <Image src="/images/Arrow 1.svg" alt="" width={22.23} height={20} />
+        <div className="arrow">
+          <ArrowIcon />
         </div>
       </div>
       <div className="text">

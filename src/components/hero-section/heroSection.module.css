@@ -5,7 +5,7 @@
   width: 1065px;
   display: flex;
   justify-content: space-between;
-  margin-top: 97px;
+  margin-top: 99px;
 }
 
 .main_heading {
@@ -24,7 +24,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 27.5px;
-  padding-top: 24px;
+  margin-top: 24px;
 }
 
 .banner_btn {
@@ -49,13 +49,14 @@
 
 @media only screen and (max-width: 600px) {
   .hero_section {
-    height: 665px;
+    min-height: 665px;
     width: 378px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 195px;
+    /* margin-top: 167px; */
+    margin: 167px auto 0px auto;
     /* padding: 0 25px; */
   }
   
@@ -77,6 +78,7 @@
     font-size: 18px;
     line-height: 27.5px;
     padding-top: 24px;
+    margin-bottom: 34px;
   }
 
   .heroImg {

@@ -16,7 +16,6 @@
   font-size: 48px;
   line-height: 48px;
   color: #272d38;
-  padding-top: 40px;
 }
 
 .brand_description {
@@ -25,23 +24,18 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 27.5px;
-  padding-top: 10px;
-}
-.arrow {
-  margin-top: 20px;
+  margin-top: 25.59px;
 }
 
 @media only screen and (max-width: 600px) {
   .branding_section {
-    height: 665px;
+    min-height: 665px;
     width: 378px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 195px;
-    /* padding: 0 25px; */
-    
+    margin: 88px auto 0px auto;
   }
 
   .brand_heading {
@@ -50,8 +44,7 @@
     font-weight: 700;
     font-size: 32px;
     line-height: 32px;
-    margin-bottom: 32px;
-
+    margin-bottom: 24px;
     color: #272d38;
     padding-top: 40px;
     text-align: center;
@@ -63,7 +56,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 27.5px;
-    padding-top: 24px;
+    margin-bottom: 32px;
   }
 
   .brandImg {

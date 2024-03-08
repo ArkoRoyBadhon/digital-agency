@@ -8,6 +8,32 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 46px;
+  position: relative;
+  background: transparent;
+}
+
+.mobile_menu_view {
+  display: block;
+  position: absolute;
+  top: -40px;
+  width: 90vw;
+  height: 100vh;
+  right: 0px;
+  background: white;
+  padding: 20px;
+  z-index: 5;
+}
+.mobile_menu_hide {
+  display: none;
+}
+
+.mobile_open_menu {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  margin-top: 20px;
+  font-weight: 500;
+  
 }
 
 .logo_name {
@@ -32,7 +58,10 @@
 
 .burgerMenu {
   display: none;
+  z-index: 3;
 }
+
+
 
 @media only screen and (max-width: 600px) {
   .nav_section {

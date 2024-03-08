@@ -12,21 +12,19 @@
 
 .contact_heading {
   max-width: 361px;
-  min-height: 102.1px;
   font-weight: 700;
   font-size: 48px;
-  line-height: 48px;
+  line-height: 100%;
   color: #272d38;
-  padding-top: 40px;
+  margin-top: 16.02px;
 }
 
 .contact_description {
   max-width: 360px;
-  min-height: 52.05px;
   font-weight: 400;
   font-size: 16px;
   line-height: 27.5px;
-  padding-top: 10px;
+  margin-bottom: 32.03px;
 }
 
 .contact_img {
@@ -38,14 +36,16 @@
     display: none !important;
   }
   .contact_section {
-    height: 665px;
-    width: 378px;
+    min-height: 350px;
+    width: 379px;
     display: block;
     text-align: center;
+    margin: 112px auto 0px auto;
   }
   .contact_heading {
     font-size: 32px;
     line-height: 32px;
+    margin-top: 56px;
     margin-bottom: 32px;
   }
   .contact_description {

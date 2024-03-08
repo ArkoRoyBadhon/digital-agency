@@ -1,23 +1,27 @@
-import BrandingSection from "@/components/branding/branding";
-import Companies from "@/components/companies/page";
-import ContactSection from "@/components/contact/page";
-import CustomizeSection from "@/components/customize/page";
-import FooterSection from "@/components/footer/footer";
-import HeroSection from "@/components/hero-section/heroSection";
-import Navbar from "@/components/navbar/page";
-import TestimonialSection from "@/components/testimonial/page";
+import GradientEffectone from "@/utils/icons/GradientEffectone";
+import GradientEffecttwo from "@/utils/icons/GradientEffecttwo";
+import HomeView from "@/views/home/page";
 
 export default function Home() {
   return (
-    <div className="main_style">
-      {/* <Navbar /> */}
-      <HeroSection />
-      <Companies />
-      <BrandingSection />
-      <CustomizeSection />
-      <TestimonialSection />
-      <ContactSection />
-      
+    <div className="">
+      <HomeView />
+      <div className="two-gradient">
+        <div className="hidden_mobile">
+          <GradientEffecttwo width={449} height={449} />
+        </div>
+        <div className="hidden_pc">
+          <GradientEffecttwo />
+        </div>
+      </div>
+      <div className="one-gradient">
+        <div className="hidden_mobile">
+          <GradientEffectone width={449} height={449} />
+        </div>
+        <div className="hidden_pc">
+          <GradientEffectone />
+        </div>
+      </div>
     </div>
   );
 }

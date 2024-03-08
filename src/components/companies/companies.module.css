@@ -3,8 +3,7 @@
 .companies_section {
   height: 28px;
   width: 1065px;
-  margin: 0 auto;
-  margin-top: 177px;
+  margin-top: 157px;
 }
 
 .companies_title {
@@ -23,8 +22,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 14px;
-  padding: 0 24px;
+  padding: 24px;
+  margin-top: 16px;
 }
 
 .logo_img {
@@ -33,18 +32,29 @@
 }
 
 
-@media only screen and (max-width: 600px) { 
+
+.hidden_mobile {
+  display: none;
+}
+.hidden_pc{
+  display: flex;
+}
+
+@media only screen and (min-width: 240px) and (max-width: 600px) { 
 
   .companies_section {
     height: 116px;
     width: 380px;
+    margin: 120px auto 0px auto;
   }
 
   .body_box {
     width: 380px;
     height: 86px;
     margin-top: 8px;
-    padding: 0 4px;
+    padding-top: 31px ;
+    padding-bottom: 31px ;
+    padding-left: 16px ;
   }
 
   .logo_img {
@@ -52,4 +62,16 @@
     width: 100%;
   }
 
+  .hidden_pc {
+    display: none;
+  }
+  .hidden_mobile {
+    display: flex;
+  }
 }
+
+/* @media only screen and (min-width: 601px) { 
+  
+  
+} */
+
