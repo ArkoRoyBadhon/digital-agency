@@ -2,19 +2,18 @@ import Image from "next/image";
 import styles from "./branding.module.css";
 import { ArrowIcon } from "@/utils/icons/arrowIcon";
 
-
 const BrandingSection = () => {
   return (
-    <div className={`${styles.branding_section}`}>
+    <section className={`${styles.branding_section}`}>
       <div className="div_center_both">
-        <h1 className={`${styles.brand_heading}`}>Branding & Design system</h1>
-        <p className={`${styles.brand_description}`}>
+        <h1 className="section_heading">Branding & Design system</h1>
+        <p className="section_description">
           Commonly used in the graphic, print & publishing industris for
-          previewing visual layout and mockups
+          previewing visual layout and <br /> mockups
         </p>
-        <div className="arrow">
+        <button className="arrow">
           <ArrowIcon />
-        </div>
+        </button>
       </div>
       <div className="text">
         <Image
@@ -25,7 +24,7 @@ const BrandingSection = () => {
           width={450}
         />
       </div>
-    </div>
+    </section>
   );
 };
 

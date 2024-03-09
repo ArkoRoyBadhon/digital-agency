@@ -13,9 +13,10 @@
   min-height: 192px;
   font-weight: 700;
   font-size: 64px;
-  line-height: 64px;
+  line-height: 100%;
   color: #272d38;
   padding-top: 40px;
+  text-transform: capitalize;
 }
 
 .banner_description {
@@ -56,13 +57,13 @@
     align-items: center;
     text-align: center;
     /* margin-top: 167px; */
-    margin: 167px auto 0px auto;
+    margin:95px auto 0px auto;
     /* padding: 0 25px; */
   }
   
   .main_heading {
     max-width: 378px;
-    min-height: 120px;
+    min-height: 56px;
     font-weight: 700;
     font-size: 40px;
     line-height: 40px;
@@ -77,13 +78,12 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 27.5px;
-    padding-top: 24px;
-    margin-bottom: 34px;
+    margin-top: 24px;
   }
 
   .heroImg {
     width: 358px;
     height: 358px;
-    margin-top: 40px;
+    margin-top: 48px;
   }
 }

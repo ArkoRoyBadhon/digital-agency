@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./heroSection.module.css";
+import Btn_Common from "../button/button";
 
 const HeroSection = () => {
   return (
@@ -11,7 +12,7 @@ const HeroSection = () => {
         <p className={`${styles.banner_description}`}>
           Digital Agency is your online team mangement tool that easy and prompt
         </p>
-        <button className={`${styles.banner_btn}`}>Contact Us</button>
+        <Btn_Common />
       </div>
       <div className="text">
         <Image

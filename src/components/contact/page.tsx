@@ -1,18 +1,20 @@
 import Image from "next/image";
 import styles from "./contact.module.css";
+import Btn_Common from "../button/button";
 
 const ContactSection = () => {
   return (
-    <div className={`${styles.contact_section}`}>
+    <section className={`${styles.contact_section}`}>
       <div className="div_center_both responsiveClass">
-        <h1 className={`${styles.contact_heading}`}>
+        <h1 className={styles.contact_heading}>
           Be a part of the next big thing
         </h1>
-        <p className={`${styles.contact_description}`}>
+        <p className={styles.contact_description}>
           We work with Brans, Startups, to SMEs. Colaborate for more impact and
           growt
         </p>
-        <button className={`common_btn`}>Contact Us</button>
+        {/* <button className={`common_btn`}>Contact Us</button> */}
+        <Btn_Common />
       </div>
       <div className={styles.contact_img}>
         <Image
@@ -23,7 +25,7 @@ const ContactSection = () => {
           width={450}
         />
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -2,21 +2,18 @@ import Image from "next/image";
 import styles from "./customize.module.css";
 import { ArrowIcon } from "@/utils/icons/arrowIcon";
 
-
 const CustomizeSection = () => {
   return (
-    <div className={`${styles.customize_section}`}>
+    <section className={`${styles.customize_section}`}>
       <div className="div_center_both">
-        <h1 className={`${styles.customize_heading}`}>
-          Custome & Plugin Development
-        </h1>
-        <p className={`${styles.customize_description}`}>
+        <h1 className="section_heading">Custome & Plugin Development</h1>
+        <p className="section_description">
           Commonly used in the graphic, print & publishing industris for
-          previewing visual layout and mockups
+          previewing visual layout and <br /> mockups
         </p>
-        <div className="arrow">
+        <button className="arrow">
           <ArrowIcon />
-        </div>
+        </button>
       </div>
       <div className="text">
         <Image
@@ -27,7 +24,7 @@ const CustomizeSection = () => {
           width={450}
         />
       </div>
-    </div>
+    </section>
   );
 };
 

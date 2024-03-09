@@ -6,26 +6,10 @@
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
-  margin-top: 136px;
+  margin-top: 220px;
 }
 
-.brand_heading {
-  max-width: 435.69px;
-  min-height: 102.35px;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 48px;
-  color: #272d38;
-}
 
-.brand_description {
-  max-width: 392.22px;
-  min-height: 83.16px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 27.5px;
-  margin-top: 25.59px;
-}
 
 @media only screen and (max-width: 600px) {
   .branding_section {
@@ -35,33 +19,14 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 88px auto 0px auto;
+    margin: 12px auto 0px auto;
   }
 
-  .brand_heading {
-    max-width: 378px;
-    min-height: 120px;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 32px;
-    margin-bottom: 24px;
-    color: #272d38;
-    padding-top: 40px;
-    text-align: center;
-  }
-
-  .brand_description {
-    max-width: 525px;
-    min-height: 56px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 27.5px;
-    margin-bottom: 32px;
-  }
+ 
 
   .brandImg {
     width: 358px;
     height: 358px;
-    margin-top: 40px;
+    margin-top: -22px;
   }
 }

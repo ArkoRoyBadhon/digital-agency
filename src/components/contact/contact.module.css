@@ -6,8 +6,9 @@
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-evenly;
-  margin-top: 136px;
+  margin-top: 126px;
   background: #f6f6f6;
+  gap: 85px;
 }
 
 .contact_heading {
@@ -24,11 +25,12 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 27.5px;
-  margin-bottom: 32.03px;
+  margin-top: 16.02px;
 }
 
 .contact_img {
   display: block;
+  margin-left: 70px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -40,15 +42,18 @@
     width: 379px;
     display: block;
     text-align: center;
-    margin: 112px auto 0px auto;
+    margin: 118px auto 0px auto;
   }
   .contact_heading {
+    width: 309px;
+    height: 65px;
     font-size: 32px;
     line-height: 32px;
+    padding: 0 10px;
     margin-top: 56px;
     margin-bottom: 32px;
   }
   .contact_description {
-    margin-bottom: 48px;
+    margin-bottom: 0px;
   }
 }

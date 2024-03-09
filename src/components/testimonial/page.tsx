@@ -4,7 +4,7 @@ import { testimonialMocks } from "@/utils/mocks/page";
 
 const TestimonialSection = () => {
   return (
-    <div className={styles.testimonialSection}>
+    <section className={styles.testimonialSection}>
       <span className={`${styles.subTitle} pos_center_div`}>TESTIMONIALS</span>
       <div className="pos_center_div">
         <h4 className={`${styles.mainTitle}`}>Read What Other have to Say</h4>
@@ -31,7 +31,7 @@ const TestimonialSection = () => {
             );
           })}
       </div>
-    </div>
+    </section>
   );
 };
 

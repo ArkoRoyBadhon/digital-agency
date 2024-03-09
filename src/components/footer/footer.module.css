@@ -5,17 +5,26 @@
   background: #f6f6f6;
   display: flex;
   flex-direction: column;
+  padding-top: 105px;
+}
+
+.footer_body {
+  width: 1065px;
+  height: 443px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 178.39px;
 }
 
 .footer_layout {
-  width: 1065px;
-  height: 443px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  justify-content: space-between;
+  width: 875.7px;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-around;
   /* align-items: center; */
-  padding-top: 105px;
-  margin: 0 auto;
+  column-gap: 177px;
+  /* background: red; */
 }
 
 .main_category {
@@ -26,11 +35,22 @@
   margin-bottom: 32px;
 }
 
+.footer_type {
+  color: #272d38;
+  width: 189.291px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  text-transform: capitalize;
+  margin-top: 40px;
+}
+
 .footerLink {
   display: flex;
   flex-direction: column;
   margin-bottom: 24px;
-  margin-top: 40px;
+  margin-top: 32px;
 }
 
 .link {
@@ -39,7 +59,7 @@
   line-height: 20px;
   font-weight: 300;
   color: #272d38;
-  width: 189.29px;
+  /* width: 189.29px; */
   margin-bottom: 24px;
 }
 
@@ -51,7 +71,6 @@
   height: 16px;
   /* margin-top: 110px; */
   margin-bottom: 18px;
-
 }
 
 @media only screen and (max-width: 600px) {
@@ -60,18 +79,45 @@
     /* width: 428px; */
     width: max-content;
     margin-top: 112px;
+    padding-top: 53px;
   }
-  
-  .footer_layout {
-    height: fit-content;
+
+  .main_logo {
+    color: #272d38;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27.5px;
+    text-transform: capitalize;
+    /* margin-bottom: 34px; */
+  }
+
+  .footer_logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 72px;
+  }
+
+  .footer_body {
     width: 428px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    column-gap: 178.39px;
+  }
+
+  .footer_layout {
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
     text-align: center;
-    padding-top: 104px;
+    margin: -30px;
+    /* padding-top: 104px; */
   }
 
-  .main_category { 
+  .main_category {
     padding-top: 40px;
   }
 }

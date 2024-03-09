@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Companies = () => {
   return (
-    <div className={`${styles.companies_section}`}>
+    <section className={`${styles.companies_section}`}>
       <div className="pos_center_div">
         <span className={`${styles.companies_title}`}>
           Trusted by 4,000+ companies
@@ -32,7 +32,7 @@ const Companies = () => {
             })}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

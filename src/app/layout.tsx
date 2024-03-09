@@ -18,10 +18,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} main_style`}>
-        <Navbar />
-        {children}
-        <FooterSection />
+      <body>
+        <main className={`${inter.className} main_style`}>
+          <Navbar />
+          {children}
+          <FooterSection />
+        </main>
       </body>
     </html>
   );
