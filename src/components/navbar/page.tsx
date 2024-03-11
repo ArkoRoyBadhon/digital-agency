@@ -7,27 +7,27 @@ import { useEffect, useState } from "react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
+  // const [scrolled, setScrolled] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 100) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-    };
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     if (window.scrollY > 100) {
+  //       setScrolled(true);
+  //     } else {
+  //       setScrolled(false);
+  //     }
+  //   };
 
-    window.addEventListener("scroll", handleScroll);
+  //   window.addEventListener("scroll", handleScroll);
 
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
 
   return (
     <nav
-      className={`${styles.nav_section}  ${scrolled ? styles.scrolled : ""}`}
+      className={`${styles.nav_section} `}
     >
       <div className={`${styles.nav_section_sub} `}>
         <div className={`${styles.logo_name}`}>Digital Agency</div>
@@ -60,12 +60,12 @@ const Navbar = () => {
         </div>
         <div className={`${styles.nav_link_group}`}>
           {navLink &&
-            navLink.map((item) => {
+            navLink.map((item,i) => {
               return (
                 <Link
                   href={item?.link_name}
                   key={item?.name}
-                  className={`${styles.nav_link}`}
+                  className={`${styles.nav_link} ${i === 3 ? "margin_small" : "margin_large"}`}
                 >
                   {item?.name}
                 </Link>

@@ -5,7 +5,7 @@ import Btn_Common from "../button/button";
 const ContactSection = () => {
   return (
     <section className={`${styles.contact_section}`}>
-      <div className="div_center_both responsiveClass">
+      <div className="div_center_both responsiveClass info_part">
         <h1 className={styles.contact_heading}>
           Be a part of the next big thing
         </h1>
@@ -13,8 +13,8 @@ const ContactSection = () => {
           We work with Brans, Startups, to SMEs. Colaborate for more impact and
           growt
         </p>
-        {/* <button className={`common_btn`}>Contact Us</button> */}
-        <Btn_Common />
+        <button className={`common_btn marginTop-contact`}>Contact Us</button>
+        {/* <Btn_Common  /> */}
       </div>
       <div className={styles.contact_img}>
         <Image

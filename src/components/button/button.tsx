@@ -2,7 +2,7 @@ import React from 'react';
 
 const Btn_Common = () => {
     return (
-        <button className={`common_btn`}>Contact Us</button>
+        <button className={`common_btn marginTop-spacing`}>Contact Us</button>
     );
 };
 
