@@ -8,8 +8,9 @@ const FooterSection = () => {
       <div className={styles.footer_body}>
         <div className={styles.footer_logo}>
           <p className={styles.main_logo}>Digital Agency</p>
-          <p className={styles.footer_type}>Building digital products, 
-brands & experience</p>
+          <p className={styles.footer_type}>
+            Building digital products, brands & experience
+          </p>
         </div>
         <div className={styles.footer_layout}>
           {footerLinks &&

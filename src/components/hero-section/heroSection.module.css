@@ -47,7 +47,6 @@
   height: 450px;
 }
 
-
 @media only screen and (max-width: 600px) {
   .hero_section {
     min-height: 665px;
@@ -57,10 +56,10 @@
     align-items: center;
     text-align: center;
     /* margin-top: 167px; */
-    margin:95px auto 0px auto;
+    margin: 78px auto 0px auto;
     /* padding: 0 25px; */
   }
-  
+
   .main_heading {
     max-width: 378px;
     min-height: 56px;
@@ -71,7 +70,7 @@
     padding-top: 40px;
     text-align: center;
   }
-  
+
   .banner_description {
     max-width: 525px;
     min-height: 56px;

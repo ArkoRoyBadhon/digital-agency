@@ -39,20 +39,20 @@
     display: none !important;
   }
   .contact_section {
-    min-height: 350px;
+    min-height: 300px;
     width: 379px;
     display: block;
     text-align: center;
     margin: 118px auto 0px auto;
   }
   .contact_heading {
-    width: 309px;
-    height: 65px;
+    width: max-content;
+    /* height: 65px; */
     font-size: 32px;
     line-height: 32px;
     padding: 0 10px;
-    margin-top: 56px;
-    margin-bottom: 32px;
+    /* margin-top: 56px; */
+    /* margin-bottom: 32px; */
   }
   .contact_description {
     margin-bottom: 0px;
