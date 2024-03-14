@@ -4,6 +4,7 @@
   height: 28px;
   width: 100vw;
   margin-top: 46px;
+  margin-left: -8px;
   background: transparent;
 }
 .nav_section_sub {
@@ -56,6 +57,7 @@
 
 .nav_link_group {
   display: flex;
+  /* position: relative; */
   /* column-gap: 44px; */
 }
 

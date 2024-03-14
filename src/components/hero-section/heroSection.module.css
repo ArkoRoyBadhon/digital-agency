@@ -20,27 +20,15 @@
 }
 
 .banner_description {
-  max-width: 525px;
+  max-width: 500px;
   min-height: 56px;
   font-weight: 400;
   font-size: 18px;
   line-height: 27.5px;
   margin-top: 24px;
+  text-transform: capitalize;
 }
 
-.banner_btn {
-  font-weight: 600;
-  size: 16px;
-  line-height: 27.5px;
-  text-align: center;
-  width: 167px;
-  height: 48px;
-  border-radius: 8px;
-  background: #8eadd5;
-  color: #ffffff;
-  border: none;
-  margin-top: 39px;
-}
 
 .heroImg {
   width: 450px;

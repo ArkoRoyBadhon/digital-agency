@@ -1,4 +1,4 @@
-import { companyLogo, companyLogoMobile } from "@/utils/mocks/page";
+import { companyLogo, companyLogoMobile } from "@/utils/mocks";
 import styles from "./companies.module.css";
 import Image from "next/image";
 

@@ -135,25 +135,26 @@ export const footerLinks = [
       },
     ],
   },
-  {
-    header: "Social Media",
-    links: [
-      {
-        name: "LinkedIn",
-        link: "/",
-      },
-      {
-        name: "Facebook",
-        link: "/",
-      },
-      {
-        name: "Instagram",
-        link: "/",
-      },
-      {
-        name: "Twitter",
-        link: "/",
-      },
-    ],
-  },
 ];
+
+export const footerSocialData = {
+  header: "Social Media",
+  links: [
+    {
+      name: "LinkedIn",
+      link: "/",
+    },
+    {
+      name: "Facebook",
+      link: "/",
+    },
+    {
+      name: "Instagram",
+      link: "/",
+    },
+    {
+      name: "Twitter",
+      link: "/",
+    },
+  ],
+};

@@ -1,5 +1,5 @@
 "use client";
-import { navLink } from "@/utils/mocks/page";
+import { navLink } from "@/utils/mocks";
 import styles from "./navbar.module.css";
 import Link from "next/link";
 import Image from "next/image";
@@ -7,24 +7,6 @@ import { useEffect, useState } from "react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  // const [scrolled, setScrolled] = useState(false);
-
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     if (window.scrollY > 100) {
-  //       setScrolled(true);
-  //     } else {
-  //       setScrolled(false);
-  //     }
-  //   };
-
-  //   window.addEventListener("scroll", handleScroll);
-
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, []);
-
   return (
     <nav
       className={`${styles.nav_section} `}

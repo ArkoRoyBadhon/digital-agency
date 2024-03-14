@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./testimonial.module.css";
-import { testimonialMocks } from "@/utils/mocks/page";
+import { testimonialMocks } from "@/utils/mocks";
 
 const TestimonialSection = () => {
   return (

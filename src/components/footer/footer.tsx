@@ -1,4 +1,4 @@
-import { footerLinks } from "@/utils/mocks/page";
+import { footerLinks, footerSocialData } from "@/utils/mocks";
 import styles from "./footer.module.css";
 import Link from "next/link";
 
@@ -34,6 +34,24 @@ const FooterSection = () => {
                 </div>
               );
             })}
+          {footerSocialData && (
+            <div key={footerSocialData?.header} className={styles.postion_menu}>
+              <p className={styles.main_category}>{footerSocialData?.header}</p>
+              <div className={styles.footerLink}>
+                {footerSocialData?.links.map((allLink) => {
+                  return (
+                    <Link
+                      key={allLink?.name}
+                      href={allLink?.link}
+                      className={styles.link}
+                    >
+                      {allLink?.name}
+                    </Link>
+                  );
+                })}
+              </div>
+            </div>
+          )}
         </div>
       </div>
       <div className={styles.copyright}>

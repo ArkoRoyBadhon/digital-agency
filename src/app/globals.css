@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  position: relative;
+  overflow-x: hidden;
+}
+
 .flex {
   display: flex;
 }
@@ -41,7 +46,7 @@
 
 .common_btn {
   font-weight: 600;
-  size: 16px;
+  font-size: 16px;
   line-height: 27.5px;
   text-align: center;
   width: 167px;
@@ -50,7 +55,7 @@
   background: #8eadd5;
   color: #ffffff;
   border: none;
-  
+  font-style: normal;
   text-transform: uppercase;
 }
 
@@ -61,8 +66,6 @@
 .marginTop-contact {
   margin-top: 29px;
 }
-
-
 
 .pos_center_div {
   display: flex;
@@ -96,7 +99,6 @@
   align-items: center;
 }
 
-
 .section_heading {
   max-width: 435.69px;
   min-height: 102.35px;
@@ -128,9 +130,9 @@
   cursor: pointer;
 }
 
-.info_part{
+.info_part {
   margin-left: -125px;
-  margin-top: 79px
+  margin-top: 79px;
 }
 
 .margin_small {
@@ -140,6 +142,10 @@
   margin-left: 43px;
 }
 
+.contact_position {
+  /* position: absolute */
+  margin-left: 20px;
+}
 
 @media only screen and (max-width: 600px) {
   .main_style {
@@ -226,8 +232,8 @@
     cursor: pointer;
   }
 
-  .info_part{
+  .info_part {
     margin-left: 0px;
-    margin-top: 40px
+    margin-top: 40px;
   }
 }
